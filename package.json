@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "deploy": "cp src/tokens.json public/tokens.json && yarn build && rm -rf ../vani-swap-site/* && mv ./build/* ../vani-swap-site && cd ..\\vani-swap-site && git add * && git commit -am \"release deployment\" && git push",
+    "build": "CI=false react-scripts build",
+    "deploy": "cp src/tokens.json public/tokens.json && yarn build && rm -rf ../vani-swap-site/* && mv ./build/* ../vani-swap-site && cd ../vani-swap-site && git add * && git commit -am \"release deployment\" && git push",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
