@@ -101,11 +101,11 @@ export default function Menu() {
                 <ArrowUpCircle size={14} />
                 Panama
             </MenuItem>
-          <MenuItem id="link" href="https://icecreamswap.finance/stake">
+          <MenuItem id="link" href="https://app.icecreamswap.finance/pools">
             <DollarSign size={14} />
             {t('stake')}
           </MenuItem>
-          <MenuItem id="link" href="https://icecreamswap.finance/farms">
+          <MenuItem id="link" href="https://app.icecreamswap.finance/farms">
             <Sunrise size={14} />
             {t('farm')}
           </MenuItem>

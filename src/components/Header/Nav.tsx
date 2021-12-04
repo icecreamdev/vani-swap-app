@@ -28,8 +28,8 @@ export default function Nav() {
     return (
         <NavElement>
             <Href href={'https://www.binance.org/en/panama'}><span role="img" aria-label="farm">🐋</span> Migrate ETH to BNB</Href>
-            <Href href={'https://icecreamswap.finance/farms'}><span role="img" aria-label="farm">🚜</span> IceCream Farms</Href>
-            <Href href={'https://icecreamswap.finance/pools'}><span role="img" aria-label="milk">🥛</span> MilkShake Pool</Href>
+            <Href href={'https://app.icecreamswap.finance/farms'}><span role="img" aria-label="farm">🚜</span> IceCream Farms</Href>
+            <Href href={'https://app.icecreamswap.finance/pools'}><span role="img" aria-label="milk">🥛</span> MilkShake Pool</Href>
             <Href href={'https://t.me/IceCreamSwap'}><span role="img" aria-label="chat">💬</span> Telegram</Href>
         </NavElement>
     )

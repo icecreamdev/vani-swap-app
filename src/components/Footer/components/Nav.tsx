@@ -6,8 +6,8 @@ const Nav: React.FC = () => {
   return (
     <StyledNav>
       <StyledLink href={'https://www.binance.org/en/panama'}><StyledImg src="images/01_EthToBsc.svg" alt="panama" /> <StyledText>Move ETH to BSC</StyledText></StyledLink>
-      <StyledLink href="https://icecreamswap.finance/farms"><StyledImg src="images/02_Farms.svg" alt="farm" /> <StyledText>IceCream Farm</StyledText></StyledLink>
-      <StyledLink href="https://icecreamswap.finance/pools"><StyledImg src="images/03_Pools.svg" alt="pools" /> <StyledText>MilkShake Pool</StyledText></StyledLink>
+      <StyledLink href="https://app.icecreamswap.finance/farms"><StyledImg src="images/02_Farms.svg" alt="farm" /> <StyledText>IceCream Farm</StyledText></StyledLink>
+      <StyledLink href="https://app.icecreamswap.finance/pools"><StyledImg src="images/03_Pools.svg" alt="pools" /> <StyledText>MilkShake Pool</StyledText></StyledLink>
       <StyledLink target="_blank" href="https://t.me/IceCreamSwap"><StyledImg src="images/04_Telegram.svg" alt="IceCreamSwap" /> <StyledText>Telegram</StyledText></StyledLink>
     </StyledNav>
   )
